@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: rgb(239 68 68 / var(--tw-text-opacity));
+    color: #ffffff;
+}
+
+
