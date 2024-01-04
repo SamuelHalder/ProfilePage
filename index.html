@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>   
+<head>
     <title>Home</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
             color: rgb(70, 70, 255);
         }
 
-        .green {    
+        .green {
             color: green;
         }
 
@@ -39,26 +39,25 @@
         .italic {
             font-style: italic;
         }
-        /* Soft light overlay */
-.soft-light-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    pointer-events: none; /* Allows clicks to go through the overlay */
-    mix-blend-mode: soft-light;
-    background: #fff;
-    opacity: 0.5; /* Adjust opacity as needed */
-    box-shadow: inset 0 0 0 100vw rgba(255, 255, 255, 0.5); /* Adjust spread and color */
-    filter: blur(20px); /* Adjust blur radius */
-}
 
+        .soft-light-overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            pointer-events: none;
+            mix-blend-mode: soft-light;
+            background: #fff;
+            opacity: 0.5;
+            box-shadow: inset 0 0 0 100vw rgba(255, 255, 255, 0.5);
+            filter: blur(20px);
+        }
     </style>
 </head>
 
 <body>
-    <header class="fixed top-0 w-full z-50 bg-white bg-opacity-70 backdrop-filter backdrop-blur-md shadow-lg">
+    <header class="fixed top-0 w-full z-50 bg-white bg-opacity-80 backdrop-filter backdrop-blur-md shadow-md">
         <div class="container mx-auto px-4 lg:px-6 flex items-center justify-between py-3 lg:py-4">
             <a href="/" class="flex items-center space-x-2">
                 <img src="images/logo.png" alt="Logo" class="w-8 h-8 rounded-full">
@@ -93,14 +92,12 @@
             </div>
         </div>
     </header>
-    
-       
-    <section class="text-gray-600 body-font">
+    <section class="bg-white body-font">
         <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
             <div class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 rounded overflow-hidden relative">
                 <img class="object-cover object-center" alt="hero" src="./images/shot.png">
                 <div class="soft-light-overlay"></div>
-            </div>            
+            </div>
             <div class="text-center lg:w-2/3 w-full">
                 <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About Me</h1>
                 <div class="text-justify">
@@ -143,7 +140,8 @@
                 </div>
                 <div class="flex justify-center">
                     <button
-                        class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"><a href="#contact">Contact Me</a></button>
+                        class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"><a
+                            href="#contact">Contact Me</a></button>
                 </div>
             </div>
         </div>
@@ -155,15 +153,20 @@
                 <div class="p-9 lg:w-1/3">
                     <div
                         class="h-full bg-white bg-opacity-100 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                        <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Artificial Intelligence</h2>
-                        <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">The Future of AI: Embracing Intelligence Beyond Boundaries</h1>
-                        <p class="leading-relaxed mb-3">As Artificial Intelligence continues to revolutionize industries, its capacity to transform our daily lives remains unparalleled. From predictive algorithms enhancing healthcare diagnostics to self-driving cars redefining transportation, AI's limitless potential continually reshapes our world.</p>
+                        <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Artificial
+                            Intelligence</h2>
+                        <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">The Future of AI:
+                            Embracing Intelligence Beyond Boundaries</h1>
+                        <p class="leading-relaxed mb-3">As Artificial Intelligence continues to revolutionize
+                            industries, its capacity to transform our daily lives remains unparalleled. From predictive
+                            algorithms enhancing healthcare diagnostics to self-driving cars redefining transportation,
+                            AI's limitless potential continually reshapes our world.</p>
                         <a class="text-red-500 inline-flex items-center">Learn More
                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
                                 fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M5 12h14"></path>
                                 <path d="M12 5l7 7-7 7"></path>
-                            </svg>  
+                            </svg>
                         </a>
                         <div
                             class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
@@ -190,8 +193,12 @@
                     <div
                         class="h-full bg-white bg-opacity-100 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                         <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Technology</h2>
-                        <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Tech Trends Redefining Tomorrow: A Glimpse into the Digital Frontier</h1>
-                        <p class="leading-relaxed mb-3">In an era where innovation drives evolution, technology leaps forward at an unprecedented pace. With breakthroughs in quantum computing, augmented reality, and sustainable tech, our journey into the future becomes an exhilarating exploration of possibilities.</p>
+                        <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Tech Trends Redefining
+                            Tomorrow: A Glimpse into the Digital Frontier</h1>
+                        <p class="leading-relaxed mb-3">In an era where innovation drives evolution, technology leaps
+                            forward at an unprecedented pace. With breakthroughs in quantum computing, augmented
+                            reality, and sustainable tech, our journey into the future becomes an exhilarating
+                            exploration of possibilities.</p>
                         <a class="text-red-500 inline-flex items-center">Learn More
                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
                                 fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -224,8 +231,12 @@
                     <div
                         class="h-full bg-white bg-opacity-100 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                         <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Streaming</h2>
-                        <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Streaming Revolution: Rewiring Entertainment and Beyond</h1>
-                        <p class="leading-relaxed mb-3">Streaming platforms have democratized content consumption, ushering in an era of on-demand entertainment. From immersive gaming experiences to diverse multimedia content, the streaming revolution transcends traditional boundaries, shaping how we engage and connect.</p>
+                        <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Streaming Revolution:
+                            Rewiring Entertainment and Beyond</h1>
+                        <p class="leading-relaxed mb-3">Streaming platforms have democratized content consumption,
+                            ushering in an era of on-demand entertainment. From immersive gaming experiences to diverse
+                            multimedia content, the streaming revolution transcends traditional boundaries, shaping how
+                            we engage and connect.</p>
                         <a class="text-red-500 inline-flex items-center">Learn More
                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
                                 fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -258,7 +269,7 @@
         </div>
     </section>
     <!--Gallery-->
-    <section class="text-gray-600 body-font">
+    <section class="bg-white text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
             <div class="flex w-full mb-20 flex-wrap">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Master
@@ -299,8 +310,8 @@
             </div>
         </div>
     </section>
-    <section class="text-gray-600 body-font relative" id="contact">
-        <div class="absolute inset-0 bg-gray-300">
+    <section class="bg-black text-gray-600 body-font relative" id="contact">
+        <div class="absolute inset-0 bg-black">
             <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map"
                 scrolling="no"
                 src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
@@ -378,13 +389,14 @@
     <script>// Get the mobile menu button and mobile menu div
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
-        
+
         // Toggle the visibility of the mobile menu when the button is clicked
         mobileMenuButton.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
-        </script>
+    </script>
     <script src="styles.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
